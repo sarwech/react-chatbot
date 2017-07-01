@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 
 class ChatBox extends Component {
 
+	propTypes: {
+		message: React.PropTypes.string
+	};
 	render() {
 		return (
 			<div className="App-header">
-				Message: {this.props.passedVal}
+				Me: {this.props.passedVal}
 			</div>
-			)
+		)
 	}
 }
 

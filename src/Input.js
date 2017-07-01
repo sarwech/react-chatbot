@@ -1,33 +1,40 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
-class Input extends Component {
-	constructor(props) {
-		super(props);
+// const styles = {
+// 	color: "red",
+// };
 
-		this.state = {
-			fieldVal: ""
-		}
-	}
+// class Input extends Component {
+// 	constructor(props) {
+// 		super(props);
 
-	update = (e) => {
-		console.log(e.target.value);
-		this.props.onUpdate(e.target.value);
-		this.setState({fieldVal: e.target.value});
-	};
+// 		this.state = {
+// 			input: '',
+// 			submit: ''
+// 		}
+// 	}
 
-	render() {
-		return (
-			<div className="App">
-				<h2>Your Message</h2>
-				<input 
-					type="text" 
-					placeholder="type here" 
-					onChange={this.update}
-					value={this.state.fieldVal} 
-				/>
-			</div>
-			)
-	}
-}
+// 	handleChange = (e) => {
+// 		console.log(e.target.value);
+// 		this.setState({
+// 			input: e.target.value
+// 		});
+// 	};
 
-export default Input;
+// 	render() {
+// 		return (
+// 			<div className="App">
+// 				<h2 style={styles}>Your Message</h2>
+// 				<input 
+// 					type="text" 
+// 					placeholder="type here" 
+// 					onChange={this.handleChange}
+// 					value={this.state.input} 
+// 				/>
+
+// 			</div>
+// 		)
+// 	}
+// }
+
+// export default Input;

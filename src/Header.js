@@ -6,7 +6,7 @@ class Header extends Component {
 			<div className="App">
 				<h1>ChatBot</h1>
 			</div>
-			)
+		)
 	}
 }
 
